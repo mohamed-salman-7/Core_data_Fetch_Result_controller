@@ -38,8 +38,7 @@ class AddDetailsViewController: UIViewController {
         } catch  {
             print(error)
         }
-        
-        NotificationCenter.default.post(name: NSNotification.Name("reload"), object: nil)
+//        NotificationCenter.default.post(name: NSNotification.Name("reload"), object: nil)
         self.dismiss(animated: true)
     }
 }
