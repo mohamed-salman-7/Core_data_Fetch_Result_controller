@@ -34,6 +34,14 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     // MARK: - Core Data stack
 
+    lazy var container: NSPersistentContainer = {
+        let container = NSPersistentContainer(name: "CoreData_Fetch_Result_Controller")
+        container.loadPersistentStores { desc, error in
+            print(error)
+        }
+        return container
+    }()
+    
     lazy var persistentContainer: NSPersistentContainer = {
         /*
          The persistent container for the application. This implementation

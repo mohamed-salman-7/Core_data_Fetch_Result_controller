@@ -14,6 +14,7 @@
 		C8716147284B6809002682A1 /* CoreData_Fetch_Result_Controller.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C8716145284B6809002682A1 /* CoreData_Fetch_Result_Controller.xcdatamodeld */; };
 		C8716149284B680A002682A1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C8716148284B680A002682A1 /* Assets.xcassets */; };
 		C871614C284B680A002682A1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C871614A284B680A002682A1 /* LaunchScreen.storyboard */; };
+		C8716154284B6A92002682A1 /* AddDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8716153284B6A92002682A1 /* AddDetailsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		C8716148284B680A002682A1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C871614B284B680A002682A1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C871614D284B680A002682A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C8716153284B6A92002682A1 /* AddDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddDetailsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +63,7 @@
 				C871613C284B6809002682A1 /* AppDelegate.swift */,
 				C871613E284B6809002682A1 /* SceneDelegate.swift */,
 				C8716140284B6809002682A1 /* ViewController.swift */,
+				C8716153284B6A92002682A1 /* AddDetailsViewController.swift */,
 				C8716142284B6809002682A1 /* Main.storyboard */,
 				C8716148284B680A002682A1 /* Assets.xcassets */,
 				C871614A284B680A002682A1 /* LaunchScreen.storyboard */,
@@ -141,6 +144,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C8716154284B6A92002682A1 /* AddDetailsViewController.swift in Sources */,
 				C8716141284B6809002682A1 /* ViewController.swift in Sources */,
 				C871613D284B6809002682A1 /* AppDelegate.swift in Sources */,
 				C8716147284B6809002682A1 /* CoreData_Fetch_Result_Controller.xcdatamodeld in Sources */,
